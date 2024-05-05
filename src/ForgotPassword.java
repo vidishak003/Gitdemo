@@ -15,6 +15,7 @@ public class ForgotPassword {
 		driver.findElement(By.cssSelector("button[type='submit']")).click();
 		System.out.print(driver.findElement(By.xpath("//body/h1")).getText());
 		System.out.println("develop branch");
+		System.out.println("develop branch gitx");
 		driver.close();
 
 	}
