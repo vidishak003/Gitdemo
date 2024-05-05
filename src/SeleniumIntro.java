@@ -15,6 +15,7 @@ public class SeleniumIntro {
 		driver.findElement(By.cssSelector("button[type='submit']")).click();
 		System.out.print(driver.findElement(By.xpath("//body/h1")).getText());
 		System.out.println("ADDING A LINE");
+		System.out.println("ADDING Another LINE");
 		driver.close();
 
 	}
