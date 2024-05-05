@@ -13,7 +13,8 @@ public class ForgotPassword {
 		driver.get("https://the-internet.herokuapp.com/forgot_password");
 		driver.findElement(By.cssSelector(".email")).sendKeys("vidisha@gmail.com");
 		driver.findElement(By.cssSelector("button[type='submit']")).click();
-		System.out.print(driver.findElement(By.xpath("//body/h1")).getText());		
+		System.out.print(driver.findElement(By.xpath("//body/h1")).getText());
+		System.out.println("develop branch");
 		driver.close();
 
 	}
