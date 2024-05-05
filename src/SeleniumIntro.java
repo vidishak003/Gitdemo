@@ -14,6 +14,7 @@ public class SeleniumIntro {
 		driver.findElement(By.cssSelector(".email")).sendKeys("vidisha@gmail.com");
 		driver.findElement(By.cssSelector("button[type='submit']")).click();
 		System.out.print(driver.findElement(By.xpath("//body/h1")).getText());
+		System.out.println("ADDING A LINE");
 		driver.close();
 
 	}
